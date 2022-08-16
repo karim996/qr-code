@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: lightblue;
+    border: 1px solid;
+    border-style: none;
+    border-radius: 12px;
+}
+
+.container img{
+    border: 1px solid;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.card{
+    width: 18rem;
+    padding: 1rem;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body h5{
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-body p{
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-align: center;
+}
